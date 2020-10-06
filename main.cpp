@@ -10,7 +10,7 @@ vox *peek = NULL;
 void push(string x, int y, string z){
     vox *nvox = new vox;
     nvox->nombre=x,nvox->sgt=peek;
-    nvox->exp=y,nvox->sgt=peek;
+    nvox->exp=y,nvox->sgt=peek;// porque repites la instrucción?
     nvox->fecha,nvox->sgt=peek;
     peek=nvox;
     //nvox->nombre="Gabriel";
